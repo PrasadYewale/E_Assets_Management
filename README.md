@@ -1,2 +1,2 @@
 # E_Assest_Management
-Team Cyber-Assets Sentinal's Repo.
+Team Cyber-Assets Sentinel's Repo.

@@ -1,7 +1,7 @@
 # E_Assets_Management
 Team Cyber-Assets Sentinel's Repo.
-```bash
-### Project Struture : 
+### Project Struture :
+```bash 
 .gitignore
 BackEnd
    |-- src

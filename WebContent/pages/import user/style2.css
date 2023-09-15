@@ -1,0 +1,117 @@
+/* Reset default styles and apply a background color */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background: #f0f0f0;
+  }
+  
+  /* Center content vertically and horizontally */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  /* Style form container */
+  .container .wrapper, .container form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  /* Style form headings */
+  .container h1, .wrapper h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Style input boxes */
+  .container input[type="text"], .container select, .container input[type="file"] {
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  .container input[type="text"]:focus,
+  .container select:focus,
+  .container input[type="file"]:focus {
+    border-color: #4070f4;
+  }
+  
+  /* Style the buttons */
+  .container input[type="submit"], .container button {
+    color: #fff;
+    background: #4070f4;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .container input[type="submit"]:hover,
+  .container button:hover {
+    background: #0e4bf1;
+  }
+  
+  /* Add some spacing between elements */
+  .container .input-box, .container .form-group {
+    margin-bottom: 20px;
+  }
+  
+  /* Style the file input label */
+  .container label[for="file"] {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the file input container */
+  .container .form-group input[type="file"] {
+    display: none;
+  }
+  
+  .container .form-group label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    background: #4070f4;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .container .form-group label:hover {
+    background: #0e4bf1;
+  }
+  
+  /* Center the text within the form */
+  .container .text h3 {
+    text-align: center;
+  }
+  
+  /* Add a little space at the bottom */
+  .container .text {
+    margin-bottom: 20px;
+  }
+  
